@@ -1,4 +1,3 @@
-![Screenshot 2023-12-27 at 6 39 22 PM](https://github.com/MuskanSingla18/RoamRadar/assets/76451999/b3d6ae66-8554-4ff0-87cd-dfd48becf22d)
 # RoamRadar
 
 This project, named RoamRadar, is a location-based web application designed to enhance travel experiences by providing users with a comprehensive guide to nearby restaurants, hotels, and attractions. Leveraging Google Maps API for geolocation and map rendering, alongside the Rapid API from Travel Advisor for detailed place information, RoamRadar allows users to explore and discover points of interest in their vicinity. The application features a dynamic map interface with zoom-in and zoom-out capabilities, accompanied by a responsive list view that showcases relevant details about establishments. 
