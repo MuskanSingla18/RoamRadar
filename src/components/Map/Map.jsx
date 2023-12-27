@@ -11,7 +11,7 @@ const MapContainer = styled('div')({
   width: '100%',
 });
 
-const MarkerContainer = ({ text }) => (
+const MarkerContainer = ({ text,website }) => (
   <div
     style={{
       marginTop:'40px',
@@ -20,6 +20,7 @@ const MarkerContainer = ({ text }) => (
       zIndex: 1,
       cursor: 'pointer',
     }}
+     onClick={() => window.open(website, '_blank')}
   >
     <LocationOnOutlinedIcon color="primary" fontSize="large" />
     <Paper elevation={3} style={{ padding: '10px', width: '100px', textAlign: 'center' }}>
@@ -97,6 +98,7 @@ const Map = ({setCoordinates, setBounds, coordinates , places , setChildClicked}
                 lat={place.latitude}
                 lng={place.longitude}
                 text={place.name}
+                website={place.website}
               />
             ) : null
           ))}
